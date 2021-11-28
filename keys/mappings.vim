@@ -3,7 +3,7 @@ nnoremap <TAB> :bnext<CR>
 " SHIFT-TAB will go back
 nnoremap <S-TAB> :bprevious<CR>
 
-nnoremap <C-b> :NERDTreeToggle<CR>
+nnoremap <F4> :NERDTreeToggle<CR>
 nnoremap <F5> :GF?<CR>
 
 " Alternate way to save
@@ -25,6 +25,7 @@ nnoremap <S-c> :BCommits<CR>
 nnoremap <C-l> :Lines<CR>
 nnoremap <C-a> :Ag<CR>
 nnoremap <C-g> :Rg<CR>
+nnoremap <C-b> :Buffers<CR>
 
 
 " Use alt + hjkl to resize windows

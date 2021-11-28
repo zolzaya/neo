@@ -12,16 +12,20 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'sheerun/vim-polyglot'
     " File Explorer
     Plug 'scrooloose/NERDTree'
-    " Plug 'ms-jpq/chadtree', {'branch': 'chad', 'do': 'python3 -m chadtree deps'}
+
     " Auto pairs for '(' '[' '{'
     Plug 'jiangmiao/auto-pairs'
-    " Nord theme
-    " Plug 'arcticicestudio/nord-vim'
-    " Plug 'junegunn/seoul256.vim'
-    Plug 'ajmwagar/vim-deus'
-
     Plug 'itchyny/lightline.vim'
     Plug 'psliwka/vim-smoothie'
+    Plug 'ryanoasis/vim-devicons'
+    Plug 'https://github.com/kyazdani42/nvim-web-devicons'
+
+    Plug 'preservim/nerdcommenter'
+
+    " Themes
+    Plug 'sainnhe/everforest'
+    " Plug 'junegunn/seoul256.vim'
+    " Plug 'ajmwagar/vim-deus'
     
     Plug 'tpope/vim-fugitive'
     Plug 'junegunn/gv.vim'
@@ -47,16 +51,5 @@ call plug#begin('~/.config/nvim/autoload/plugged')
         Plug 'roxma/nvim-yarp'
         Plug 'roxma/vim-hug-neovim-rpc'
     endif
-
-    " Plug 'neovim/nvim-lspconfig'
-    " Plug 'hrsh7th/cmp-nvim-lsp'
-    " Plug 'hrsh7th/cmp-buffer'
-    " Plug 'hrsh7th/cmp-path'
-    " Plug 'hrsh7th/cmp-cmdline'
-    " Plug 'hrsh7th/nvim-cmp'
-
-    " For vsnip users.
-    " Plug 'hrsh7th/cmp-vsnip'
-    " Plug 'hrsh7th/vim-vsnip'
 
 call plug#end()
