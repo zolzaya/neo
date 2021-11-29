@@ -14,10 +14,8 @@ source $HOME/.config/nvim/plug-config/fzf.vim
 source $HOME/.config/nvim/plug-config/nerdcommenter.vim
 source $HOME/.config/nvim/plug-config/ali.vim
 source $HOME/.config/nvim/plug-config/deoplete.vim
-
-" source $HOME/.config/nvim/plug-config/lsp-config.vim
-" source $HOME/.config/nvim/plug-config/pylsp.lua
-" source $HOME/.config/nvim/plug-config/bash-lsp.lua
+source $HOME/.config/nvim/plug-config/vim-gitgutter.vim
+source $HOME/.config/nvim/plug-config/vim-table-mode.vim
 
 " Mappings
 source $HOME/.config/nvim/keys/mappings.vim

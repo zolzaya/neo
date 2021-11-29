@@ -21,6 +21,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'https://github.com/kyazdani42/nvim-web-devicons'
 
     Plug 'preservim/nerdcommenter'
+    Plug 'dhruvasagar/vim-table-mode'
 
     " Themes
     Plug 'sainnhe/everforest'
@@ -28,6 +29,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Plug 'ajmwagar/vim-deus'
     
     Plug 'tpope/vim-fugitive'
+    Plug 'airblade/vim-gitgutter'
     Plug 'junegunn/gv.vim'
     Plug 'mhinz/vim-startify'
 
