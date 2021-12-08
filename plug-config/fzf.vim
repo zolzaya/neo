@@ -11,7 +11,7 @@ let g:fzf_action = {
 let g:fzf_history_dir = '~/.local/share/fzf-history'
 
 " Border color
-let g:fzf_layout = {'up':'~90%', 'window': { 'width': 0.8, 'height': 0.9,'yoffset':0.5,'xoffset': 0.5, 'highlight': 'Todo', 'border': 'sharp' }}
+let g:fzf_layout = {'up':'~100%', 'window': { 'width': 1, 'height': 1, 'yoffset':0.5, 'xoffset': 0.5, 'highlight': 'Todo', 'border': 'sharp'}}
 
 let $FZF_DEFAULT_OPTS = '--info=inline'
 let $FZF_DEFAULT_COMMAND="rg --files --hidden"
