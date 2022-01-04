@@ -39,6 +39,9 @@ set termguicolors
 set ignorecase
 "set autochdir                           " Your working directory will always be the same as your working directory
 
+filetype indent on
+set ai
+
 au! BufWritePost $MYVIMRC source %      " auto source when writing to init.vm alternatively you can run :source $MYVIMRC
 
 " You can't stop me
